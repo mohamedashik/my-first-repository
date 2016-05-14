@@ -13,11 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         testGit=(TextView) findViewById(R.id.testGit);
 
-
         if (testGit != null) {
             testGit.setText(R.string.abc);
         }
-
-
     }
 }
